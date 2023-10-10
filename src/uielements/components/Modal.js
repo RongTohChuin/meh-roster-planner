@@ -1,4 +1,4 @@
-import React,{ReactPortal} from "react";
+import React, { ReactPortal } from "react";
 import "./Modal.css";
 
 const ModalBackground = (props) => {
