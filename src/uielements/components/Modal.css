@@ -1,0 +1,28 @@
+#modal-hook {
+  display: flex;
+  margin: 20px;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
+}
+
+.modal-background {
+  height: 60vh;
+  width: 80vw;
+  border-radius: 5px;
+  -webkit-backdrop-filter: blur(8px); /* Safari 9+ */
+  backdrop-filter: blur(8px); /* Chrome and Opera */
+  box-shadow: 0px 3px 20px 8px rgb(0 0 0 / 15%);
+  background-color: rgba(168, 215, 236, 0.15);
+}
+.login-fields input {
+  border-radius: 5px;
+  border-width: 1px;
+  background-color: slategrey;
+  border-color: rgba(0, 0, 0, 0.1);
+  border-style: solid;
+  padding: 2px;
+  margin: 5px;
+}
