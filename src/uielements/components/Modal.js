@@ -1,8 +1,11 @@
-import React, { ReactPortal } from "react";
+import React, { ReactDOM } from "react";
 import "./Modal.css";
 
 const ModalBackground = (props) => {
-  return <div className="modal-background"></div>;
+  return ReactDOM.createPortal(
+    <div className="modal-background">hi</div>,
+    document.getElementById("modal-hook")
+  );
 };
 
 export default ModalBackground;
